@@ -4,7 +4,7 @@
 
 [![build-bazzite](https://github.com/ublue-os/bazzite/actions/workflows/build.yml/badge.svg)](https://github.com/ublue-os/bazzite/actions/workflows/build.yml) [![build-bazzite-isos](https://github.com/ublue-os/bazzite/actions/workflows/build_iso.yml/badge.svg)](https://github.com/ublue-os/bazzite/actions/workflows/build_iso.yml)
 
-# [🇺🇸](https://github.com/ublue-os/bazzite/blob/main/README.md) [🇪🇸](https://github.com/ublue-os/bazzite/blob/main/README-SPA.md) [🇮🇩](https://github.com/ublue-os/bazzite/blob/main/README-ID.md)
+# [🇺🇸](https://github.com/ublue-os/bazzite/blob/main/README.md) [🇪🇸](https://github.com/ublue-os/bazzite/blob/main/README-SPA.md) [🇮🇩](https://github.com/ublue-os/bazzite/blob/main/README-ID.md) [🇫🇷](https://github.com/ublue-os/bazzite/blob/main/README-FR.md) [🇧🇷](https://github.com/ublue-os/bazzite/blob/main/README-BR.md)
 
 <p align="center">
   <a href="https://bazzite.gg/#image-picker"><img src="/repo_content/download.png?raw=true" alt="Download Bazzite"/></a>
@@ -37,8 +37,8 @@ Usa nuestro [seleccionador de imágenes](https://bazzite.gg/#image-picker) para 
 
 ## Acerca de y Características
 
-[Bazzite](https://bazzite.gg/) es una imagen OCI que sirve como un sistema operativo alterno para la [Steam Deck](https://www.steamdeck.com/), y como un sistema tipo SteamOS listo para jugar para computadoras de 
-escritorio, computadoras para cine en casa (HTPC), y un sinnúmero de 
+[Bazzite](https://bazzite.gg/) es una imagen OCI que sirve como un sistema operativo alterno para la [Steam Deck](https://www.steamdeck.com/), y como un sistema tipo SteamOS listo para jugar para computadoras de
+escritorio, computadoras para cine en casa (HTPC), y un sinnúmero de
 otras computadoras portátiles.
 
 Bazzite es creado con [ublue-os/main](https://github.com/ublue-os/main) y [ublue-os/nvidia](https://github.com/ublue-os/nvidia) usando tecnología de [Fedora](https://fedoraproject.org/), lo que significa un soporte expandido de hardware y drivers incluidos. Adicionalmente, Bazzite añade las siguientes características:
@@ -87,7 +87,7 @@ Esta variante común/genérica esta disponible como `bazzite`, la cual es adecua
 > \[!IMPORTANT\]\
 > **Las imágenes de disco (ISOs) pueden descargarse desde nuestra página de lanzamientos (releases) [aquí (en inglés)](https://github.com/ublue-os/bazzite/releases), también puedes encontrar una útil guía de instalación [aquí (en inglés)](https://universal-blue.discourse.group/docs?topic=30).**
 
-Si estas actualmente usando una imagen de Universal Blue, por favor [sigue estas instrucciones (en inglés)](https://universal-blue.org/images/#image-list). 
+Si estas actualmente usando una imagen de Universal Blue, por favor [sigue estas instrucciones (en inglés)](https://universal-blue.org/images/#image-list).
 
 Si deseas cambiar la base (rebase) de una imagen upstream existente de un sistema ostree de Fedora Silverblue/Kinoite a la imagen **para computadoras de escritorio usando una GPU AMD o Intel**, ejecuta el siguiente comando en una terminal:
 
@@ -146,7 +146,7 @@ Esta variante esta diseñada para usarse como una alternativa de SteamOS en la S
 > \[!IMPORTANT\]\
 > **Las imágenes de disco (ISOs) pueden descargarse desde nuestra página de lanzamientos (releases) [aquí (en inglés)](https://github.com/ublue-os/bazzite/releases), también puedes encontrar una útil guía de instalación [aquí (en inglés)](https://universal-blue.discourse.group/docs?topic=30).**
 
-Si estas actualmente usando una imagen de Universal Blue, por favor [sigue estas instrucciones (en inglés)](https://universal-blue.org/images/#image-list). 
+Si estas actualmente usando una imagen de Universal Blue, por favor [sigue estas instrucciones (en inglés)](https://universal-blue.org/images/#image-list).
 
 Si deseas cambiar la base (rebase) de una imagen upstream existente de un sistema ostree de Fedora Silverblue/Kinoite a la imagen **para Steam Deck/HTPCs**, ejecuta el siguiente comando en una terminal:
 

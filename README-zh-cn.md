@@ -4,7 +4,7 @@
 
 [![build-bazzite](https://github.com/ublue-os/bazzite/actions/workflows/build.yml/badge.svg)](https://github.com/ublue-os/bazzite/actions/workflows/build.yml) [![build-bazzite-isos](https://github.com/ublue-os/bazzite/actions/workflows/build_iso.yml/badge.svg)](https://github.com/ublue-os/bazzite/actions/workflows/build_iso.yml)
 
-# [🇺🇸](https://github.com/ublue-os/bazzite/blob/main/README.md) [🇪🇸](https://github.com/ublue-os/bazzite/blob/main/README-SPA.md) [🇮🇩](https://github.com/ublue-os/bazzite/blob/main/README-ID.md) [:cn:](https://github.com/ublue-os/bazzite/blob/main/README-zh-cn.md)
+# [🇺🇸](https://github.com/ublue-os/bazzite/blob/main/README.md) [🇪🇸](https://github.com/ublue-os/bazzite/blob/main/README-SPA.md) [🇮🇩](https://github.com/ublue-os/bazzite/blob/main/README-ID.md) [:cn:](https://github.com/ublue-os/bazzite/blob/main/README-zh-cn.md) [🇫🇷](https://github.com/ublue-os/bazzite/blob/main/README-FR.md) [🇧🇷](https://github.com/ublue-os/bazzite/blob/main/README-BR.md)
 
 <p align="center">
   <a href="https://download.bazzite.gg/"><img src="/repo_content/download.png?raw=true" alt="Download Bazzite"/></a>
@@ -112,7 +112,7 @@ rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/bazzite-nvidia:sta
 - **即便驱动器已满，也能启动。**
 - **支持上游Fedora系统支持的每种语言。**
 - **在桌面使用Wayland图形应用协议，[支持Steam input](https://github.com/Supreeeme/extest)。**
-- 包含[HHD](https://github.com/hhd-dev/hhd)以提供非Valve手持设备的扩展输入支持。 
+- 包含[HHD](https://github.com/hhd-dev/hhd)以提供非Valve手持设备的扩展输入支持。
 - [evlaV仓库](https://gitlab.com/evlaV)包含大多数SteamOS软件包的移植版本，包括驱动程序，固件升级和风扇控制器。
 - 修补了Mesa以便于Gamescope提供合适的帧率控制。
 - 自带[SteamOS BTRFS](https://gitlab.com/popsulfr/steamos-btrfs)补丁以默认对SD card提供完整的BTRFS支持。

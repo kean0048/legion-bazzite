@@ -74,6 +74,20 @@ install-emudeck:
       chmod +x $HOME/Desktop/EmuDeck.AppImage
     fi
 
+# Install OpenRGB (https://openrgb.org/)
+install-openrgb:
+    #!/usr/bin/bash
+    if grep -q 'it.mijorus.gearlever' <<< $(flatpak list); then
+      wget https://openrgb.org/releases/release_0.9/OpenRGB_0.9_x86_64_b5f46e3.AppImage \
+        -O $HOME/Downloads/OpenRGB.AppImage
+      chmod +x $HOME/Downloads/OpenRGB.AppImage
+      flatpak run it.mijorus.gearlever $HOME/Downloads/OpenRGB.AppImage
+    else
+      wget https://openrgb.org/releases/release_0.9/OpenRGB_0.9_x86_64_b5f46e3.AppImage \
+        -O $HOME/Desktop/OpenRGB.AppImage
+      chmod +x $HOME/Desktop/OpenRGB.AppImage
+    fi
+
 # Install Boxtron, a Steam Play compatibility tool to run DOS games using native Linux DOSBox
 install-boxtron: distrobox-check-fedora
     distrobox enter -n fedora -- bash -c '\
@@ -142,13 +156,6 @@ install-opentabletdriver:
     systemctl --user daemon-reload && \
     systemctl enable --user --now arch-opentabletdriver.service && \
     distrobox enter -n arch -- bash -c 'distrobox-export --app otd-gui'
-
-# Install hhd main branch locally until reboot, helpful for hhd testing and debugging. (rename to install-hhd-dev if we unhide)
-_hhd-dev:
-    #!/usr/bin/bash
-    source /usr/lib/ujust/ujust.sh
-    echo "Installing ${b}Handheld Daemon${n} locally until next reboot."
-    curl -L https://raw.githubusercontent.com/hhd-dev/hhd/master/local_hhd.sh | bash
 
 # Create fedora distrobox if it doesn't exist
 [private]
