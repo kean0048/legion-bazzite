@@ -4,7 +4,7 @@
 
 [![build-bazzite](https://github.com/ublue-os/bazzite/actions/workflows/build.yml/badge.svg)](https://github.com/ublue-os/bazzite/actions/workflows/build.yml) [![build-bazzite-isos](https://github.com/ublue-os/bazzite/actions/workflows/build_iso.yml/badge.svg)](https://github.com/ublue-os/bazzite/actions/workflows/build_iso.yml)
 
-# [🇺🇸](https://github.com/ublue-os/bazzite/blob/main/README.md) [🇪🇸](https://github.com/ublue-os/bazzite/blob/main/README-SPA.md) [🇮🇩](https://github.com/ublue-os/bazzite/blob/main/README-ID.md) [🇫🇷](https://github.com/ublue-os/bazzite/blob/main/README-FR.md) [🇧🇷](https://github.com/ublue-os/bazzite/blob/main/README-BR.md)
+# [🇺🇸](https://github.com/ublue-os/bazzite/blob/main/README.md) [🇪🇸](https://github.com/ublue-os/bazzite/blob/main/README-SPA.md) [🇮🇩](https://github.com/ublue-os/bazzite/blob/main/README-ID.md) [🇫🇷](https://github.com/ublue-os/bazzite/blob/main/README-FR.md) [🇧🇷](https://github.com/ublue-os/bazzite/blob/main/README-BR.md) [🇳🇱](https://github.com/ublue-os/bazzite/blob/main/README-NL.md)
 
 <p align="center">
   <a href="https://bazzite.gg/#image-picker"><img src="/repo_content/download.png?raw=true" alt="Download Bazzite"/></a>
@@ -15,7 +15,6 @@
 Usa nuestro [seleccionador de imágenes](https://bazzite.gg/#image-picker) para encontrar la imagen correcta basada en tu hardware y tus preferencias.
 
 # Tabla de Contenidos
-
 - [Características de **todas** las imágenes de Bazzite](#about--features)
   - [Características de las imágenes para **Computadoras de Escritorio**](#desktop)
   - [Características de las imágenes para **Steam Deck/HTPC**](#steam-deckhome-theater-pcs-htpcs)
